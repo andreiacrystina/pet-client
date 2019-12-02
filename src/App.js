@@ -11,7 +11,9 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <Routes />
+      <div className="container">
+        <Routes />
+      </div>
     </BrowserRouter>
   );
 }
